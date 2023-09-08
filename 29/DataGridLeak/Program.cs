@@ -94,7 +94,8 @@ class Program
         rootPanel.Children.Add(dataGrid);
         DockPanel.SetDock(buttonPanel, Dock.Bottom);
 
-        FixDataGridClearingLeak(dataGrid);
+        // Uncomment this line to fix the leak
+        // FixDataGridClearingLeak(dataGrid);
 
         window.Content = rootPanel;
 
