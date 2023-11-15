@@ -12,8 +12,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="C:\temp\CscAnal\NS.J-13\Newtonsoft.Json.dll" />
-    <Reference Include="C:\temp\CscAnal\NS.J.S-3.0.14\Newtonsoft.Json.Schema.dll" />
+    <Reference Include="$(MSBuildThisFileDirectory)..\NS.J-13\Newtonsoft.Json.dll" />
+    <Reference Include="$(MSBuildThisFileDirectory)..\NS.J.S-3.0.14\Newtonsoft.Json.Schema.dll" />
   </ItemGroup>
 
 </Project>
