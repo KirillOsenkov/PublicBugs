@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <DebugType>embedded</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup Label="Generator requirements">
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="3.11.0" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="3.3.2" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.CodeAnalysis.Common" Version="3.11.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="C:\temp\CscAnal\NS.J-13\Newtonsoft.Json.dll" />
+    <Reference Include="C:\temp\CscAnal\NS.J.S-3.0.14\Newtonsoft.Json.Schema.dll" />
+  </ItemGroup>
+
+</Project>
