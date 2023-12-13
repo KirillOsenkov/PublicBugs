@@ -7,7 +7,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Analyzer1\Analyzer1.csproj" ReferenceOutputAssembly="False" OutputItemType="Analyzer" />
     <ProjectReference Include="..\Analyzer2\Analyzer2.csproj" ReferenceOutputAssembly="False" OutputItemType="Analyzer" />
-	<AdditionalFile Include="Class1.cs" />
+    <AdditionalFiles Include="$(MSBuildThisFileDirectory)1.json" />
   </ItemGroup>
 
 </Project>
